@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: material_faro_del__uv_faro_del
-  m_Shader: {fileID: 20, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 30, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: []
   m_SavedProperties:
     serializedVersion: 2
@@ -35,7 +35,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .752595127, g: .778200686, b: .852941155, a: 1}
+        second: {r: .872026384, g: .887795329, b: .933823526, a: 1}
       data:
         first:
           name: _ReflectColor
