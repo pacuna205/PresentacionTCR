@@ -7,8 +7,9 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: material_faro_del__uv_faro_del
-  m_Shader: {fileID: 30, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 6df2d4883b1154641bf3f267d17acce4, type: 3}
   m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -23,7 +24,7 @@ Material:
         first:
           name: _Cube
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 8900000, guid: 92db03c5e9b35cc40bc7b46d5fc0eec9, type: 2}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -38,9 +39,9 @@ Material:
         second: {r: .872026384, g: .887795329, b: .933823526, a: 1}
       data:
         first:
-          name: _ReflectColor
-        second: {r: 0, g: 0, b: 0, a: .501960814}
-      data:
-        first:
           name: _SpecColor
         second: {r: .5, g: .5, b: .5, a: 0}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: .5, g: .5, b: .5, a: .501960814}

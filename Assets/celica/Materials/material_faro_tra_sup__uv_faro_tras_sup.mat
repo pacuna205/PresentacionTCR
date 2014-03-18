@@ -9,6 +9,7 @@ Material:
   m_Name: material_faro_tra_sup__uv_faro_tras_sup
   m_Shader: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -19,9 +20,20 @@ Material:
           m_Texture: {fileID: 2800000, guid: 1d1f77457c331094f8b06e1e28e0cf2c, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: 92db03c5e9b35cc40bc7b46d5fc0eec9, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats: {}
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: .800000012, g: .800000012, b: .800000012, a: 1}
+        second: {r: .970588207, g: .963451505, b: .963451505, a: 1}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: .29411763, g: .29411763, b: .29411763, a: 1}
